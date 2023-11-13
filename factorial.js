@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     let number = document.getElementById("number");
-    let result = document.getElementById("result");
-
 
     document.getElementById("number").oninput = () =>
         result.innerHTML = "It is exactly " + factorial(number.value) + ".";
